@@ -1,3 +1,33 @@
+header {
+    display: flex; /*El display flex ayuda a colocar los elementos como fila*/
+    justify-content: space-between; /*space between para que haya espacio entre el div y el nav*/
+    height: 60px; /*Alto del header*/
+    background-color: #103f79;
+    align-items: center;
+    padding: 10px; /*Crea un borde al rededor del contenido el padding*/
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: black; /*Color del texto del nav*/
+}
+.cancion {
+    color: blue; /*Color del link del final*/
+}
+nav a{
+    font-weight: 600;/*Negrita de las palabras del nav*/
+}
+nav a:hover{
+    color: #f3b229; /*El hover es el color que aparece al pararnos sobre las palabras del nav*/
+}
 h1 {
     background-color: #103f79;
     color: black;
@@ -18,16 +48,16 @@ h4 {
     justify-content: center;
 }
 body {
-    background-color: #BECEC7;
+    background-color: #BECEC7; /*Color del fondo de la pagina*/
     margin: 0;
 }
 p {
-    background-color: #969788;
+    background-color: #969788; /*Color del fondo de los parrafos*/
 }
 .p1 {
     text-align: justify;
     font-size: large;
-    text-indent: 20px;
+    text-indent: 20px; /*Sangria del primer parrafo*/
 }
 .boke {
     height: 2%;
@@ -36,34 +66,4 @@ p {
 .boke2 {
     height: 2%;
     width: 2%;
-}
-header {
-    display: flex;
-    justify-content: space-between;
-    height: 60px;
-    background-color: #103f79;
-    align-items: center;
-    padding: 10px;
-}
-.logo {
-    display: flex;
-    align-items: center;
-}
-.logo img {
-    height: 60px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-.cancion {
-    color: blue;
-}
-nav a{
-    font-weight: 600;
-}
-nav a:hover{
-    color: #f3b229;
-}
+} /*Logos chiquitos del h1*/
